@@ -19,7 +19,6 @@ is a desktop application for managing weigh station entries with live data valid
 
 ## 📁 Folder Structure
 
-```text
 project/
 ├── assets/              # Contains icons (PNG/ICO)
 ├── data/                # Excel template (comparison.xlsx)
