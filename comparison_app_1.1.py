@@ -116,17 +116,17 @@ def print_data():
         
     try:
         station_short_mapping = {
-            "DUKHAN STATION NO. 1": "DUKHAN-1",
-            "DUKHAN STATION NO. 2": "DUKHAN-2",
-            "NORTH ROAD STATION NO. 1": "NR1",
-            "NORTH ROAD STATION NO. 2": "NR2",
-            "NORTH ROAD STATION NO. 3": "NR3",
-            "SALWA STATION NO. 1": "SW1",
-            "SALWA STATION NO. 2": "SW2",
-            "SALWA STATION NO. 3": "SW3",
-            "SALWA STATION NO. 4": "SW4",
-            "SALWA STATION NO. 5": "SW5",
-            "SALWA STATION NO. 6": "SW6",
+            "D STATION NO. 1": "D-1",
+            "D STATION NO. 2": "D-2",
+            "NR STATION NO. 1": "NR1",
+            "NR STATION NO. 2": "NR2",
+            "NR STATION NO. 3": "NR3",
+            "S STATION NO. 1": "S1",
+            "S STATION NO. 2": "S2",
+            "S STATION NO. 3": "S3",
+            "S STATION NO. 4": "S4",
+            "S STATION NO. 5": "S5",
+            "S STATION NO. 6": "S6",
         }
         
         selected_station_full = station_var.get()
@@ -398,17 +398,17 @@ def take_screenshot():
 
 def do_screenshot():
     station_folder_mapping = {
-    "DUKHAN STATION NO. 1": "SAMPLE DUKHAN-1",
-    "DUKHAN STATION NO. 2": "SAMPLE DUKHAN-2",
-    "NORTH ROAD STATION NO. 1": "SAMPLE NR1",
-    "NORTH ROAD STATION NO. 2": "SAMPLE NR2",
-    "NORTH ROAD STATION NO. 3": "SAMPLE NR3",
-    "SALWA STATION NO. 1": "SAMPLE SW1",
-    "SALWA STATION NO. 2": "SAMPLE SW2",
-    "SALWA STATION NO. 3": "SAMPLE SW3",
-    "SALWA STATION NO. 4": "SAMPLE SW4",
-    "SALWA STATION NO. 5": "SAMPLE SW5",
-    "SALWA STATION NO. 6": "SAMPLE SW6"
+    "D STATION NO. 1": "SAMPLE D-1",
+    "D STATION NO. 2": "SAMPLE D-2",
+    "NR STATION NO. 1": "SAMPLE NR1",
+    "NR STATION NO. 2": "SAMPLE NR2",
+    "NR STATION NO. 3": "SAMPLE NR3",
+    "S STATION NO. 1": "SAMPLE S1",
+    "S STATION NO. 2": "SAMPLE S2",
+    "S STATION NO. 3": "SAMPLE S3",
+    "S STATION NO. 4": "SAMPLE S4",
+    "S STATION NO. 5": "SAMPLE S5",
+    "S STATION NO. 6": "SAMPLE S6"
     }
     try:
         root.withdraw()
@@ -544,10 +544,10 @@ station_label.grid(row=0, column=0, padx=5, sticky="w")
 
 station_var = tk.StringVar()
 station_dropdown = ttk.Combobox(first_row, textvariable=station_var, values=[
-    "DUKHAN STATION NO. 1", "DUKHAN STATION NO. 2",
-    "NORTH ROAD STATION NO. 1", "NORTH ROAD STATION NO. 2", "NORTH ROAD STATION NO. 3",
-    "SALWA STATION NO. 1", "SALWA STATION NO. 2", "SALWA STATION NO. 3",
-    "SALWA STATION NO. 4", "SALWA STATION NO. 5", "SALWA STATION NO. 6",
+    "D STATION NO. 1", "D STATION NO. 2",
+    "NR STATION NO. 1", "NR STATION NO. 2", "NR STATION NO. 3",
+    "S STATION NO. 1", "S STATION NO. 2", "S STATION NO. 3",
+    "S STATION NO. 4", "S STATION NO. 5", "S STATION NO. 6",
 ], width=27, state='readonly')
 station_dropdown.bind('<<ComboboxSelected>>')
 station_dropdown.grid(row=0, column=1, padx=5, sticky="w")
