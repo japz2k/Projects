@@ -18,11 +18,14 @@ is a desktop application for managing weigh station entries with live data valid
 - Tooltip hints for all actions
 
 ## 📁 Folder Structure
+
+```text
 project/
-├── assets/ # Contains icons (PNG/ICO)
-├── data/ # Excel template (comparison.xlsx)
-├── backups/ # Autosave JSONs
-├── comparison_1.2.py # Main application script
+├── assets/              # Contains icons (PNG/ICO)
+├── data/                # Excel template (comparison.xlsx)
+├── backups/             # Autosave JSONs
+├── comparison_1.2.py    # Main application script
+
 
 ## 🚀 Getting Started
 
